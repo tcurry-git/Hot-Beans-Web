@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website for trained web developers / designers to start their software/IT journey. We provide a multitude of employee benefits and real scenarios where junior web developers can get a taste for the world of web development and more!">
+    <meta name="keywords" content="developer, website, design, UI, UX, trainee, trained, qualified, software, junior, coding, HTML, CSS, JavaScript">
+    <meta name="author" content="Hot Beans Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans Web | The BEST software company for newly trained web developers </title>
+    <link rel="icon" type="image/x-icon" href="images/code-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/245655d12b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="mobile-sidebar">
+            <div class="close-button">
+                <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            </div>
+            <div class="sidebar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobspec.html">Job Specifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </ul>
+        <a href="index.html" title="Logo"><img id="nav-logo" src="images/hot-beans-logo (2).png" alt="Company logo"></a>
+        <ul class="desktop-nav">
+            <li class="hide-nav-elements-mobile"><a title="Home" href="index.html">Home</a></li>
+            <li class="hide-nav-elements-mobile"><a title="About"  href="about.html">About</a></li>
+            <li class="hide-nav-elements-mobile"><a title="Job specifications"   href="jobspec.html">Job Specifications</a></li>
+            <li class="hide-nav-elements-mobile"><a title="Contact"   href="contact.html">Contact</a></li>
+            <li class="menu-button" class="hide-nav-elements-desktop" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" width="30px" height="30px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+    </nav>
+
+
+<!--Change contact to a button so when you hover over it, it displays a small form. Formboile incorporate into hamburger menu so maybe a small form under the links??-->
+<section class="home-header-section">
+    <header class="header-home">
+        <div class="home-hero-elements">
+            <div class="home-hero-text">
+                <h1 class="home-hero">Hot Beans Web</h1>
+                <h2 class="home-header-text">A bespoke web development company looking for<br> <span>trained developers</span> to join our team!</h2>
+            </div>
+            <div class="home-hero-buttons">
+                <a title="Apply to Hot Beans Web" href="#apply-now"><button id="hero-btn-1">Apply now</button></a>
+                <a title="Learn more" href="about.html"><button id="hero-btn-2">Learn more</button></a>
+            </div>
+        </div>
+    </header>
+</section>
+
+<main>
+<section class="company-profile-section">
+    <div class="introduction">
+        <h4><li>OUR VALUES</li></h4>
+        <h3>Introduction</h3><br>
+        <p>At Hot Beans, we believe in building more than just websites, we create innovative digital experiences that shape the future. As a growing web development company, we’re on the lookout for passionate, creative, and skilled individuals to join our dynamic team. Whether you’re an experienced developer, designer, or strategist, we offer an exciting environment where you can thrive, grow, and make a real impact. At Hot Beans, you’ll work on cutting-edge projects, collaborate with talented professionals, and have the opportunity to continuously learn and evolve in the fast-paced world of web development. Join us and be a part of something great!</p>
+    </div>
+    <div class="intro-pic">
+        <img id="intro-img" src="images/intro-pic_compressed.jpg" alt="Two people shaking hands - symbolizing the introduction to something">
+    </div>
+</section>
+
+<section class="offer-you-section" class="full-width">
+    <div class="offer-text">
+        <h4><li>WE CAN OFFER YOU THE BEST PERKS</li></h4>
+        <h3>Why Choose Us?</h3><br><br>
+    </div>
+        <div class="offer-you-elements">
+            <div class="offer-element">
+                <img id="offer-icons" src="images/xp-icon.png" alt="Icon showing a worker with lots of experience"><br>
+                <h4>Experience</h4><br>
+                <p>Hot beans has some of the most experienced web developers and UI/UX designs there are. You will be surrounded by knowledgable and patient people the second you join our team, so don't be afraid to ask for help if you need it! </p>
+            </div>
+             <div class="offer-element">
+                <img id="offer-icons" src="images/com-icon.png" alt="Icon showing a communication network"><br>
+                <h4>Communication</h4><br>
+                <p>Having good people skills is necessary for a web developer job. This is because you will spend 50% of your time working with client's trying to better understand the brief. We will guide you to become a master at extracting the necessary information you need to start building your client's dreams!</p>
+            </div>
+            <div class="offer-element">
+                <img id="offer-icons" src="images/flex-icon.png" alt="Icon showing a clock to represent time flexibility"><br>
+                <h4>Flexibility</h4><br>
+             <p>Tired of having to drive everyday at work? Well, you've found the right job for you. At Hot Beans most of our developers either solely work from home or are hybrid workers. We also hold nearly all of our meetings over the internet so there's no need to travel to our office everyday!</p>
+            </div>
+        </div>
+</section>
+
+<section class="doing-section">
+    <div class="doing-heading">
+        <h4><li>LEARN HOW TO WORK IN INDUSTRY</li></h4>
+        <h3>What You'll Be Doing</h3><br><br>
+    </div>
+    <div class="doing-content">
+        <div class="doing-img">
+            <img id="doing-pic" src="images/doing-pic_compressed.jpg" alt="Image showing someone working hard on their computer">
+        </div>
+        <div class="doing-elements">
+            <div class="doing-element">
+                <div class="doing-icon"><img src="images/key.icon.png" alt="icon of a key"></div>
+                <div>
+                    <h4 class="list-heading">Learning to  <span>extract</span>  key information from client</h4><br>
+                    <p>It's important to be good at this as most clients don't understand what we as web developers need to create a professional and informative site for their users</p>
+                <br><br><br>
+                </div>
+            </div>
+            <div class="doing-element">
+                <div class="doing-icon"><img src="images/responsive-icon.png" alt="icon of a mobile phone"></div>
+                <div>
+                    <h4 class="list-heading">Designing <span>beautiful</span> and responsive web applications and sites</h4><br>
+                <p>Making a site / web app aesthetically pleasing to the eye is proven to keep users engaged, and responsiveness is a must as over 50% of traffic is from mobile users</p>
+                <br><br><br>
+                </div>
+                
+            </div>
+            <div class="doing-element">
+                <div class="doing-icon"> <img src="images/code-icon.png" alt="icon of a HTML tag"></div>
+                <div>
+                    <h4 class="list-heading">Developing / designing an app or website to meet client needs using <span>HTML</span>, <span>CSS</span> and <span>JavaScript</span></h4><br>
+                <p>If you join our team at Hot Beans you'll be doing mostly front-end work using the above web languages and or designing these apps and sites. You will learn on the job from our experienced members so only a basic level of knowledge is needed!</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-team">
+    <div class="team-heading">
+        <h4><li>SEE WHAT EXISTING EMPLOYEES THINK OF US</li></h4>
+        <h3>Our Team</h3><br><br>
+    </div>
+    <div class="team-members">
+    <div class="team-member">
+        <img src="images/team-member-1.jpg" alt="Image of team member (male)"><br><br>
+        <div class="team-member-text">
+            <h4>Joshua, 29 <br>Lead front-end developer</h4><br>
+            <q>Hey! i'm Josh and i've been part of Hot Beans Web now for 12 years, working solely as a front-end developer. Throughout my journey i've learn't that simplicity and maintainability is key when building websites. There's been times where i've rushed the development phase a project leading to my code being hard to understand. Remember to take your team if you want to join me to develop websites!</q>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="images/team-member-4.jpg" alt="Image of team member (female)"><br><br>
+        <div class="team-member-text">
+            <h4>Sofia, 34<br>UI & graphic designer</h4><br>
+            <q>I'm Sofia Croux, a French designer who loves making things look good! I adore all the members of the team here at Hot Beans as they always communicate with me every step of the way to ensure my designs are relevant to the client's branding and feel for the site! So far, with my 4 years experience collaborating with the Hot Beans developers, i've designed over 120+ websites. I aim for clean and easily digestible designs as usually our client's target audience is sufficiently widespread.</q>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="images/team-member-2.jpg" alt="Image of team member (male)"><br><br>
+        <div class="team-member-text">
+            <h4>Adrian, 20<br>Marketing/SEO</h4><br>
+            <q>Hello, I'm Adrian, a London lad with a passion for marketing and sales. I've recently joined the team to work as an SEO specialist and so far i'm liking my role. I'm thinking of training to become a developer/designer so i can become more of a rounded member of Hot Beans and collaborate with other skilled employees.</q>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<section class="apply-section">
+    <div id="apply-now" class="apply-header">
+        <h4><li>COME AND JOIN OUR TEAM</li></h4>
+        <h3>Apply Now</h3><br><br>
+    </div>
+    <form class="application-form" action="">
+        <div class="apply-name">
+            <label  for="name-field">Enter your full name</label><br>
+            <input  id="name-field" type="text" placeholder="John Doe" required  maxlength="50">
+        </div>
+      <div class="apply-email">
+        <label for="email-field">Enter your email</label><br>
+        <input id="email-field" type="email" placeholder="johndoe@gmail.com" required>
+      </div>
+        <div class="apply-job">
+            <label  for="jobs-field">Select your job role</label><br>
+            <select  id="jobs-field" name="job roles" required>
+                <option value="UI/UX Designer">UI/UX Designer</option>
+                <option value="Front-end developer">Front-end developer</option>
+                <option value="Back-end developer">Back-end developer</option>
+            </select>
+          </div>
+            <div class="apply-date">
+                <label  for="start-date">Enter  start date</label><br>
+                <input  id="start-date" type="date" required>
+            </div>
+        <div class="apply-upload">
+            <label for="upload-field">Upload CV here</label><br>
+            <input id="upload-field" type="file" required>
+        </div>
+        <div class="apply-submit">
+            <a title="Apply" href=""><button>Apply</button></a>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <div class="footer-img">
+        <img id="footer-logo" src="images/hot-beans-logo (2).png" alt="Company logo">
+    </div>
+        <div class="footer-links-contact-socials">
+            <div class="quick-links">
+                <h4>Quick links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="jobspec.html">Job Specifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <div class="contacts">
+                    <div class="footer-socials">
+                        <h4>Get in Touch</h4>
+                        <ul class="footer-contact-details">
+                            <li><a href="">Email: JohnDoe@hotmail.com</a></li>
+                            <li><a href="">Phone: 07654 019845</a></li>
+                        </ul>
+                    </div><br>
+                        <ul class="socials">
+                            <li><a href=""><img src="images/facebook.logo.png" alt="facebook logo"></a></li>
+                            <li><a href=""><img src="images/insta.logo.png" alt="instagram logo"></a></li>
+                            <li><a href=""><img src="images/twitter.logo.png" alt="twitter logo"></a></li>
+                            <li><a href=""><img src="images/linkedin.logo.png" alt="linkedin logo"></a></li>
+                        </ul>
+                    </div>
+                </div>     
+            </div>
+</footer>
+
+<hr class="hr-styling">
+<section class="copyright">
+    <p>Copyright © 2024 | All Rights Reserved | Hot Beans Web</p>
+</section>
+
+
+
+</main>
+
+
+</body>
+</html>
